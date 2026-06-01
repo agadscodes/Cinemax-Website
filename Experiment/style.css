@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.submit-Btn{
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filter-Btn{
+  padding: 10px 15px;
+  border: none;
+  background: #2bda04;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.item{
+  padding: 10px;
+  background: #f8f8f8;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+#clear-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #dc3545;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#clear-btn:hover {
+  background: #a71d2a;
+}
+small{
+  color: rgb(180, 180, 180);
+}
+.filter{
+  border: none;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  outline: none;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.color-btn{
+  display: flex;
+  margin: 5px 0px;
+  justify-content: space-between;
+}
+.color-btn #clear-btn{
+  width: 45%;
+}
